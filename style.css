@@ -1,0 +1,975 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background: #000;
+}
+
+.nav-section {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: auto;
+    width: 30%;
+    
+  
+}
+
+
+
+.input-sec {
+    height: auto;
+    width: 30%;
+}
+
+.input-sec input {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.content {
+    height: auto;
+    width: 30%;
+}
+
+.content ul {
+    height: 100px;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.navigation {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.gav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu {
+
+    color: white;
+
+}
+
+.menu span {
+    display: flex;
+    font-size: 20px;
+}
+
+.menu span i {
+    padding-inline: 5px;
+}
+
+.phones {
+    height: auto;
+    width: 60%;
+
+}
+
+.phones ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: white;
+}
+
+.phones ul li span {
+    display: flex;
+    padding-inline: 5px;
+
+}
+
+.phones ul li p {
+    padding-inline: 5px;
+}
+
+.phones ul li {
+    padding-inline: 2px;
+
+}
+
+.free {
+    width: 20%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-section {
+    height: 450px;
+    width: 100%;
+}
+
+.moto-img {
+    height: 450px;
+    width: 100%;
+    background-image: url("./home.jpg");
+    background-size: cover;
+}
+
+.moto-img {
+    padding: 150px;
+}
+
+.moto-img h4 {
+    font-size: 35px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.moto-img p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.moto-img button {
+    width: 10%;
+    background: #000;
+    border: 1px solid;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.mobile-fea {
+
+    width: 100%;
+    background-color: black;
+}
+
+.moto-con {
+    height: 100px;
+    width: 100%;
+    background: black;
+
+}
+
+.moto-con ul {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    color: white;
+    list-style: none;
+}
+
+.moto-con ul li {
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #192b3e;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    color: #82c1e9;
+}
+
+.ultra {
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+}
+
+.ultra-phone {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.razr-40 {
+    height: 450px;
+    width: 30%;
+    color: white;
+
+    background-color: #192b3e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.razr-40 h5 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.razr-40 p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#ab {
+    text-decoration: line-through;
+}
+
+.razr-40 button {
+    width: 25%;
+    font-size: 20px;
+    margin-top: 30px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.razr-40 img {
+    height: 300px;
+    width: 300px;
+}
+
+.razr-43 {
+    height: 450px;
+    width: 30%;
+    color: white;
+
+    background-color: #192b3e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.razr-43 h5 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.razr-43 p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.razr-edge {
+    height: 450px;
+    width: 30%;
+    color: white;
+    background-color: #192b3e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bc {
+    text-decoration: line-through;
+}
+
+.razr-43 button {
+    width: 25%;
+    font-size: 20px;
+    margin-top: 30px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.razr-43 img {
+    height: 300px;
+    width: 300px;
+}
+
+.razr-edge h5 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.razr-edge p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#ca {
+    text-decoration: line-through;
+}
+
+.razr-edge button {
+    width: 25%;
+    font-size: 20px;
+    margin-top: 30px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.razr-edge img {
+    height: 286px;
+width: 286px;
+}
+
+.services {
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+
+.ser {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.satellite {
+    height: 300px;
+    width: 40%;
+    background-image: url("./satellite.jpg");
+    background-size: cover;
+}
+
+.speaker {
+    height: 300px;
+    width: 40%;
+    background-image: url("./speaker.jpg");
+    background-size: cover;
+}
+
+.trend {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+.trend p {
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.now {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first {
+    height: 350px;
+    width: 17%;
+    background-color: #192b3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first img {
+    height: 150px;
+    width: 150px;
+}
+
+.first p {
+    font-size: 20px;
+}
+
+.first span {
+    display: flex;
+}
+
+#op {
+    color: #c1c1c1;
+    ;
+    text-decoration: line-through;
+}
+
+.second {
+    height: 350px;
+    width: 17%;
+    background-color: #192b3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second img {
+    height: 150px;
+    width: 150px;
+}
+
+.second p {
+    font-size: 20px;
+}
+
+.second span {
+    display: flex;
+}
+
+#bo {
+    color: #c1c1c1;
+    ;
+    text-decoration: line-through;
+}
+
+.third {
+    height: 350px;
+    width: 17%;
+    background-color: #192b3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.third img {
+    height: 150px;
+    width: 150px;
+}
+
+.third p {
+    font-size: 20px;
+}
+
+.third span {
+    display: flex;
+}
+
+#yu {
+    color: #c1c1c1;
+    ;
+    text-decoration: line-through;
+}
+
+.fourth {
+    height: 350px;
+    width: 17%;
+    background-color: #192b3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fourth img {
+    height: 150px;
+    width: 150px;
+}
+
+.fourth p {
+    font-size: 20px;
+}
+
+.fourth span {
+    display: flex;
+}
+
+#it {
+    color: #c1c1c1;
+    ;
+    text-decoration: line-through;
+}
+
+.fifth {
+    height: 350px;
+    width: 17%;
+    background-color: #192b3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fifth img {
+    height: 150px;
+    width: 150px;
+}
+
+.fifth p {
+    font-size: 20px;
+}
+
+.fifth span {
+    display: flex;
+}
+
+#ti {
+    color: #c1c1c1;
+    ;
+    text-decoration: line-through;
+}
+
+.search {
+    height: 200px;
+    width: 100%;
+    background-color: #001428;
+}
+
+.search p {
+    font-size: 35px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.diff {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.diff input {
+    height: 30px;
+    border: 1px solid;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.fusion button {
+    height: 25px;
+    border: 1px solid;
+    background-color: #192b3e;
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.fission button {
+    height: 25px;
+    border: 1px solid;
+    background-color: #192b3e;
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.footer {
+    height: 650px;
+    width: 100%;
+    background-color: black
+}
+
+.fut {
+    padding: 40px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.abt {
+
+    height: 100px;
+    width: 20%;
+
+
+}
+
+.abt p {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.abt img {
+    height: 70px;
+    width: 100%;
+}
+
+.icon {
+    height: 200px;
+    width: 20%;
+
+}
+
+.icon p {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.ic {
+
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+
+}
+
+.coun {
+    height: 100px;
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+}
+
+.coun img {
+    height: 20px;
+    width: 10%;
+}
+
+.coun a {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.products {
+    height: 300px;
+    width: 100%;
+}
+
+.pro {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pf {
+    height: 300px;
+    width: 30%;
+
+    color: white;
+    padding: 50px;
+}
+
+.pf ul p {
+    font-size: 20px;
+
+}
+
+.pf ul li {
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.home {
+    height: 300px;
+    width: 30%;
+
+    color: white;
+    padding: 50px;
+}
+
+.home ul p {
+    font-size: 20px;
+}
+
+.home ul li {
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.supp {
+    height: 300px;
+    width: 30%;
+
+    color: white;
+    padding: 50px;
+}
+
+.supp ul p {
+    font-size: 20px;
+}
+
+.supp ul li {
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.abts {
+    height: 300px;
+    width: 30%;
+
+    color: white;
+    padding: 50px;
+}
+
+.abts ul p {
+    font-size: 20px;
+}
+
+.abts ul li {
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.safe-web {
+    height: 300px;
+    width: 20%;
+
+    color: white;
+    padding: 50px;
+}
+
+.safe-web p {
+    font-size: 20px;
+
+}
+
+.safe-web img {
+    margin-top: 10px;
+}
+
+.abt-moto {
+    height: 100px;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+/* media query */
+@media (max-width:768px) {
+    .nav-bar {
+        height: auto;
+        width: 100%;
+    }
+
+    .nav-section {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-sec {
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        display: none;
+    }
+    .navigation{
+        display: none;
+    }
+    .hero-section{
+       height: 400px;
+       width: 100%;
+       
+    }
+    .moto-img{
+        background-image: url("./home.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .hero-section{
+        height: auto;
+        width: 100%;
+        padding-right: 1%;
+    }
+    .moto-img{
+        height: auto;
+        width: 100%;
+        padding-left: 12%
+        
+    }
+    .moto-img h4{
+         
+       text-align: left;
+        font-size: 30px;
+    }
+    .moto-img p{
+        text-align: left;
+        font-size: 20px;
+        width: 150px;
+    }
+    .moto-img button{
+     
+        width: 100%;
+      
+    }
+    .ultra{
+        height: auto;
+        width: 100%;
+       
+    }
+    .moto-con{
+ 
+        width: 100%;
+    }
+   
+    .ultra-phone{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+     
+
+    }
+    .razr-40{
+        height: auto;
+        width: 100%;
+    }
+    .razr-43{
+        height: auto;
+        width: 100%;
+    }
+    .razr-edge{
+        height: auto;
+        width: 100%;
+    }
+    .services{
+        display: none;
+    }
+    .trend{
+        height: auto;
+        width: 100%;
+    }
+    .trend p{
+        font-size: 25px;
+    }
+    .now{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .first{
+         height: auto;
+         width: 100%;
+    }
+    .second{
+        height: auto;
+        width: 100%;
+    }
+    .third{
+        height: auto;
+        width: 100%;
+    }
+    .fourth{
+        height: auto;
+        width: 100%;
+    }
+    .fifth{
+        height: auto;
+        width: 100%;
+    }
+    .search p{
+        font-size: 25px;
+    }
+    .footer{
+        height: auto;
+        width: 100%;
+    }
+    .fut{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .abt{
+        height: auto;
+        width: 100%;
+    }
+    .abt img{
+        height: 80px;
+        width: 300px;
+    }
+    .icon{
+        width: 120%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .coun{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .products{
+        height: auto;
+        width: 100%;
+
+    }
+    .pro{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .pf{
+        height: auto;
+        width: 100%;
+    }
+    .home{
+        height: auto;
+        width: 100%;
+    }
+    .supp{
+        height: auto;
+        width: 100%;
+    }
+    .abts{
+        height: auto;
+        width: 100%;
+    }
+    .safe-web{
+        height: auto;
+        width: 100%;
+        
+    }
+    .abt-moto{
+        height: auto;
+        width: 100%;
+        font-size: 15px;
+    }
+}
